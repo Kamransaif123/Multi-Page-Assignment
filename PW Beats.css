@@ -1,0 +1,308 @@
+body {
+    background-color: #0f0f10;
+}
+main {
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.beats-logo {
+    width: 3vw;
+    height: 3vw;
+    margin-top: 1vw;
+}
+.shop {
+    background-color: #1e1e21;
+    width: 5vw;
+    border: 1px outset black;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    font-size: xx-large;
+    margin-bottom: 5px;
+}
+h4 {
+    margin-bottom: 0;
+}
+.on-ear button{
+    width: 25vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #1e1e21;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.on-ear-logo {
+    width: 30vw;
+    margin-left: 2.5vw;
+}
+.main-image {
+    width: 15vw;
+    position: relative;
+    bottom: 70px;
+
+}
+.top-side {
+    display: flex;
+    justify-content: center;
+    gap: 7vw;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+}
+.Overview {
+    width: 25vw;
+    font-family: monospace;
+}
+.right-side span {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3vw;
+}
+.logo img {
+    width: 6vw;
+}
+.youtube {
+    width: 6vw;
+    height: 3.5vh;
+}
+.specs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom {
+    display: flex;
+    gap: 6vw;
+}
+.specs-logo {
+    margin: 3vw;
+}
+.specs-img {
+    width: 20vw;
+    height: 45vh;
+    margin-top: 1.5vw;
+}
+.connections, .Microphone {
+    margin-left: 30px;
+    width: 12vw;
+}
+#specs p {
+    margin-top: 5px;
+    font-family: monospace;
+}
+.Case {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.case-bottom {
+    display: flex;
+    gap: 7vw;
+}
+.right {
+    width: 15vw;
+    margin-top: 4vw;
+    padding: 1vw;
+}
+.right p {
+    font-family: monospace;
+}
+.right button {
+    background-color: #1e1e21;
+    color: white;
+    margin-top: 2vw;
+    border: none;
+    border-radius: 5px;
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.right button p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.case-logo {
+    margin: 4vw;
+}
+.left img {
+    width: 20vw;
+}
+.buy-product {
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    background-color: #181a1b;
+    width: 50vw;
+    padding: 2vw;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5vw;
+}
+.buyNowImg {
+    width: 19vw;
+}
+.buy-left {
+    width: 15vw;
+}
+.buy-left button {
+    background-color: #000000;
+    color: white;
+    width: 11vw;
+    height: 7vh;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+}
+.chooseYourStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+}
+.styles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 7vw;
+}
+.styles div {
+    background-color: #181a1b;
+    width: 17vw;
+    height: 17vw;
+    border-radius: 5px;
+}
+.styles-img {
+    margin: 5vw;
+}
+.headphone-img {
+    width: 10vw;
+    display: flex;
+    margin: auto;
+    position: relative;
+    bottom: 4vw;
+}
+.headphone div {
+    /* background: none; */
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+.headphone div img {
+    width: 2vw;
+    height: 1.6vw;
+    background-color: #000000;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.headphone span {
+    font-size: small;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 2vw;
+    margin-top: 6vw;
+}
+footer div {
+    color: white;
+}
+.Support {
+    display: flex;
+    flex-direction: column;
+}
+.Products {
+    display: flex;
+    flex-direction: column;
+}
+footer p {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+footer a {
+    font-weight: lighter;
+}
+.contact-button {
+    background-color: #181a1b;
+    width: 22vw;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    background: none;
+    width: 10vw;
+    border: none;
+}
+.contact-button button {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    color: white;
+    width: 10vw;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+}
+.contact-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    position: relative;
+    right: 3vw;
+    
+}
+.contact-logo img {
+    width: 2.5vw;
+}
+.Contact {
+    margin-top: 2vw;
+    
+}
+.beats {
+    width: 3vw;
+    position: relative;
+    bottom: 2vw;
+}
+.upArrow {
+    width: 2vw;
+    height: 2vw;
+    margin-top: 2.5vw;
+    margin-left: 9vw;
+}
